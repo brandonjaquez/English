@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+<style>
+
+            /* Basic Background Information */
+                      body{
+                        background-image:url();
+                        background-position:center;
+                              background-repeat: no-repeat;
+                                  background-attachment: fixed;
+                                      background-size:cover;
+                                          margin:0px;
+                                              padding:0px;
+                                                  font-family:"Helvetica Neue", Helvetica, Arial;
+                        }
+
+            /* Unvisited link */
+                a:link {
+                        color: green;
+                    }
+
+            /* Visited link */
+                a:visited { 
+                        color: pink;
+                    }
+
+                                                                /*This is the Styles for the sidebar*/
+                                                                #sidebar{
+                                                                  background:#151718;
+                                                                      width:200px;
+                                                                          height:100%;
+                                                                              display:block;
+                                                                                  position:absolute;
+                                                                                      left:-200px;
+                                                                                          top:0px;
+                                                                                              transition:left 0.3s linear;
+                                                                  
+                                                                }
+                                                                #sidebar.visible{
+                                                                  left:0px;
+                                                                      transition:left 0.3s linear;
+                                                                }
+                                                                ul{
+                                                                  margin:0px;
+                                                                      padding:0px;
+                                                                  
+                                                                }
+                                                                ul li{
+                                                                  list-style:none;
+                                                                  
+                                                                }
+                                                                ul li a{
+                                                                  background:#1C1E1F;
+                                                                      color:#ccc;
+                                                                          border-bottom:1px solid #111;
+                                                                              display:block;
+                                                                                  width:180px;
+                                                                                      padding:10px;
+                                                                                          text-decoration:none;
+                                                                }
+                                                                #sidebar-btn{
+                                                                  display:inline-block;
+                                                                      vertical-align:middle;
+                                                                          height:20px;
+                                                                              width:20px;
+                                                                                  cursor:pointer;
+                                                                                    margin:20px;
+                                                                                        position:absolute;
+                                                                                            top:0px;
+                                                                                                right:-60px;
+                                                                                                   color:red;
+                                                                }
+                                                                #sidebar-btn span{
+                                                                  height:1px;
+                                                                      background:#555;
+                                                                          margin-bottom:5px;
+                                                                              display:block;
+                                                                                  color:red;
+                                                                }
+                                                                #sidebar-btn span:nth-child(2){ 
+                                                                  width:75%;
+                                                                  
+                                                                }
+                                                                #sidebar-btn span:nth-child(3){ 
+                                                                  width:50%;
+                                                                  
+                                                                }
+
+
+/*This is for the animation of the square*/
+dov {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+</style>
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+<head>
+    
+                    <meta charset="utf-8">
+                        <title>Brandon's Website</title>
+                            <link rel="stylesheet" type="text/css" href="style.css"> 
+                                <center><font color="black"><h1>The Raven</h1></center></font>
+</head>
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+<body>
+    
+                        <!-- This is how you call an image -->
+                        <center><font color="tomato"><h4>Pg. 3</h4></font></center>
+                         <center><img src="Img/PG3.png"></center>                     
+                                                                                                <center><font color ="white"><h1>.<h1></center>
+                                                                                                <center><font color="black"><h5>Presently my soul grew stronger; hesitating then no longer, 
+"Sir," said I, "or Madam, truly your forgiveness I implore; 
+But the fact is I was napping, and so gently you came rapping, 
+And so faintly you came tapping, tapping at my chamber door, 
+That I scarce was sure I heard you"- here I opened wide the door; - Darkness there, and nothing more. 
+
+</h5></font><center>
+                                                                                                                        <center><font color ="white"><h1>.<h1></center>
+                                                                                                                                                <center><font color ="white"><h1>.<h1></font></center>
+                                                                <DIV style="color: black; position: middle; font-family: arial; font-style: italic; font-variant:small-caps;
+     font-weight:bold; text-decoration:underline; letter-spacing: 2px; top: 500px; width: 400px;
+     height: 25px; background-color: yellow">Edgar Allan Poe Fun Facts!</DIV>
+     
+     <font color="black"><h4>Edgar Allan Poe bought the magazine the Broadway Journal but he soon left the city due to rumors about his love life.</h4></font>
+                        <!-- <a target="_blank" href=""> 
+                        <center><img src="" ></center> -->
+    
+                        <div id="sidebar">
+                        <!-- this orders the websites into a list -->
+                        
+                        <ul>
+                                    <li><a href="index.html"><b>Pg. 1</b></a></li>
+                                                  <li><a href="pg2.html"><b>Pg. 2</b></a></li>
+                                                  <li><a href="pg3.html"><b>Pg. 3</b></a></li>
+                                                  <li><a href="pg4.html"><b>Pg. 4</b></a></li>                                                  
+                                                  <li><a href="pg5.html"><b>Pg. 5</b></a></li>                   
+                                                  <li><a href="pg6.html"><b>Pg. 6</b></a></li>
+                                                  <li><a href="pg7.html"><b>Pg. 7</b></a></li>
+                                                  <li><a href="pg8.html"><b>Pg. 8</b></a></li>
+                      
+                    
+                        </ul>
+                    <!-- This is part of the button (how many little lines there are) -->
+                    
+                     <div id="sidebar-btn">
+                          <span></span>
+                              <span></span>
+                                  <span></span>
+                     </div>
+                        
+                    </div>
+                    
+                    <dov></dov>
+                    
+                    <!-- This is the javascript for the sidebar to open and close -->
+                    
+                	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                	<script>
+                	        $(document).ready(function(){
+                	        	$('#sidebar-btn').click(function(){
+                		        	$('#sidebar').toggleClass('visible');
+                                                                        		});
+                                                                        	});
+                	</script>    
+    
+    
+</body>
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+</html>
